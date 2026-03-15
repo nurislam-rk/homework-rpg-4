@@ -16,3 +16,4 @@ Separate skill abstraction from effect implementation so both can evolve indepen
 ## Check Yourself
 - Can one skill work with multiple effects without code duplication?
 - Can one effect be reused by multiple skills?
+ 
