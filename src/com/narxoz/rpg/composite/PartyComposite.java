@@ -95,7 +95,7 @@ public class PartyComposite implements CombatNode {
         for (CombatNode child : children) {
             child.printTree(indent + "   ");
         }
-    }
+    } 
 
     private List<CombatNode> getAliveChildren() {
 

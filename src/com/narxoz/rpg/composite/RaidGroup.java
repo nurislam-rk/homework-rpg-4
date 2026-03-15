@@ -5,4 +5,4 @@ public class RaidGroup extends PartyComposite {
     public RaidGroup(String name) {
         super(name);
     }
-} 
+}  

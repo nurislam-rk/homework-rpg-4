@@ -17,4 +17,4 @@ public interface CombatNode {
     List<CombatNode> getChildren();
 
     void printTree(String indent);
-}
+} 
