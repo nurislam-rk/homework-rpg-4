@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class RaidResult {
+
     private String winner;
     private int rounds;
     private final List<String> log = new ArrayList<>();
