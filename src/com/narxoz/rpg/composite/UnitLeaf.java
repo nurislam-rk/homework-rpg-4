@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 public abstract class UnitLeaf implements CombatNode {
+
     private final String name;
     private int health;
     private final int attackPower;
@@ -31,9 +32,10 @@ public abstract class UnitLeaf implements CombatNode {
 
     @Override
     public void takeDamage(int amount) {
-        if (!isAlive()) {
+
+        if (!isAlive())
             return;
-        }
+
         health = Math.max(0, health - Math.max(0, amount));
     }
 
