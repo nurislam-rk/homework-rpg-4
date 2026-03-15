@@ -3,6 +3,7 @@ package com.narxoz.rpg.bridge;
 import com.narxoz.rpg.composite.CombatNode;
 
 public abstract class Skill {
+
     private final String skillName;
     private final int basePower;
     private final EffectImplementor effect;
@@ -30,4 +31,4 @@ public abstract class Skill {
     }
 
     public abstract void cast(CombatNode target);
-}
+} 
